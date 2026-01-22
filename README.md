@@ -1,5 +1,5 @@
 # Stack-Game
-Link to view and play this game (http://127.0.0.1:5500/index.html)
+Link to view and play this game https://bit.ly/3YV9655
 Simple one-tap / one-click gameplay
 
 Smooth animations and transitions
