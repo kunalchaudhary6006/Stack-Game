@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stack Game - Professional Edition</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div id="overlay"></div>
+  
+  <div id="instructions">
+    <div class="modal-content">
+      <h1 class="title">🎮 Stack Game</h1>
+      <div class="divider"></div>
+      <div class="instructions-grid">
+        <div class="instruction-item">
+          <span class="icon">🏗️</span>
+          <p><strong>Objective:</strong> Stack blocks on top of each other</p>
+        </div>
+        <div class="instruction-item">
+          <span class="icon">✨</span>
+          <p><strong>Goal:</strong> Reach the blue color blocks</p>
+        </div>
+        <div class="instruction-item">
+          <span class="icon">🎵</span>
+          <p><strong>Action:</strong> Click, tap or press <kbd>Space</kbd> when a block is above the stack</p>
+        </div>
+        <div class="instruction-item">
+          <span class="icon">🚀</span>
+          <p><strong>Start:</strong> Click, tap or press <kbd>Space</kbd> to begin</p>
+        </div>
+      </div>
+      <button id="startBtn" class="btn btn-primary">Start Game</button>
+    </div>
+  </div>
+  
+  <div id="results">
+    <div class="modal-content">
+      <h2 class="result-title">Game Over</h2>
+      <div class="divider"></div>
+      <div class="result-stats">
+        <div class="stat-box">
+          <p class="stat-label">Final Score</p>
+          <p id="finalScore" class="stat-value">0</p>
+        </div>
+      </div>
+      <p class="result-message">You missed the block!</p>
+      <p class="result-hint">Press <kbd>R</kbd> to reset the game</p>
+      <button id="restartBtn" class="btn btn-secondary">Play Again</button>
+    </div>
+  </div>
+  
+  <div id="hud">
+    <div id="score" class="score-display">0</div>
+    <div id="level" class="level-display">Level: 1</div>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
