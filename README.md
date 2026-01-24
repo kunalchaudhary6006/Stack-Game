@@ -1,5 +1,5 @@
 # Stack-Game
-Link to view and play this game https://bit.ly/3YV9655
+Link to view and play this game https://kunalchaudhary6006.github.io/Stack-Game/
 Simple one-tap / one-click gameplay
 
 Smooth animations and transitions
